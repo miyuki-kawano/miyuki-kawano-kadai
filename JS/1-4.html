@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js課題1-4</title>
+</head>
+<body>
+<script>
+    document.write("配列変数の各要素の数値を合計する関数arrSumを用いて合計値を表示");
+
+    let array = [20, 30, 5];
+
+    function arrRes(array) {
+        let res = [];
+        for(var i = 0; i < array.length; i++) {
+            if(i < array.length-1){
+                res += array[i]+",";
+            }
+            else{
+                res += array[i];
+            }
+        }
+    return res;
+    }
+
+    function arrSum(array) {
+        let sum = 0;
+        for(var i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+    return sum;
+    }
+
+alert("各要素:"+arrRes(array)+"\n合計値:"+arrSum(array));
+
+</script>
+</body>
+</html>

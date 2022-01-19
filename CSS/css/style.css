@@ -1,0 +1,78 @@
+#kadai1-1{
+    color: blue; 
+}
+
+.kadai1-2{
+    color: green;
+    font-size: 30px; 
+}
+
+.space{
+    margin-bottom: 1em;
+}
+
+.kadai1-3{
+    text-decoration: line-through;
+  }
+
+.kadai1-4{
+    color: white;
+    background: steelblue;
+    width: 500px;
+}
+
+#contents{
+    width: 500px;
+}
+
+#kadai1-5{
+    background: thistle;
+    padding: 20px 10px 20px 10px;
+    border: double 4px dimgray;
+}
+
+#main{
+    background: gainsboro;
+    padding: 10px 10px 10px 10px;
+    border: solid 2px dimgray;
+}
+
+.kadai2-1{
+    width: 500px;
+    height: 250px;
+    background-image: url(../img/bg.jpg);
+}
+
+.link{
+    font-family: "MS UI Gothic";
+}
+
+.link:hover{
+    font-style : italic;
+}
+
+.kadai3-1_border{
+    border: solid 2px black;
+    width: 300px;
+}
+
+.kadai3-1_border td{
+    border: solid 1px black;
+    text-align: center;
+}
+
+.kadai4-1_border{
+    border-collapse: collapse;
+}
+
+.kadai4-1_border th{
+    border: solid 1px black;
+    color: white;
+    background-color: steelblue;
+}
+
+.kadai4-1_border td{
+    border: solid 1px black;
+}
+
+

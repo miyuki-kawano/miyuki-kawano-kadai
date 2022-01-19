@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>js課題1-3</title>
+</head>
+<body>
+<script>
+    document.write("消費税を計算する関数taxを用いて金額を表示");
+
+    var money = 600;
+    function tax() {
+        var taxin = money * 1.08;
+        return taxin;
+    }
+    alert("税別："+money+"円\n税込み："+tax()+"円");
+    
+</script>
+</body>
+</html>
